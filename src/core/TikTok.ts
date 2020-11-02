@@ -122,7 +122,7 @@ export class TikTokScraper extends EventEmitter {
         by_user_id = false,
         store_history = false,
         historyPath = '',
-        noWaterMark = false,
+        noWaterMark = true,
         fileName = '',
         timeout = 0,
         bulk = false,
