@@ -70,7 +70,7 @@ export class Downloader {
      */
     public addBar(type: boolean, len: number): any[] {
         this.progressBar.push(
-            this.mbars.newBar(`Downloading (${!type ? 'WITH WM' : 'WITHOUT WM'}) :id [:bar] :percent`, {
+            this.mbars.newBar(`Downloading -> (${!type ? 'WITH WM' : 'WITHOUT WM'}) :id [:bar] :percent`, {
                 complete: '=',
                 incomplete: ' ',
                 width: 30,
