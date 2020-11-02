@@ -33,7 +33,7 @@ export class Downloader {
     constructor({ progress, proxy, noWaterMark, headers, filepath, bulk }: DownloaderConstructor) {
         this.progress = true || progress;
         this.progressBar = [];
-        this.noWaterMark = noWaterMark;
+        this.noWaterMark = true;
         this.headers = headers;
         this.filepath = filepath;
         this.mbars = new MultipleBar();
